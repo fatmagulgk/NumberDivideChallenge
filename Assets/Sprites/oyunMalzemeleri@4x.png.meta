@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: oyunMalzemeleri@4x_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 14
+        width: 338
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dabd776b4938224388fcf35b4714a55
+      internalID: 976369238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oyunMalzemeleri@4x_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 10
+        width: 458
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d86d8886cda34d9a7a1bc94f0660c
+      internalID: -1501588833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 31
+        width: 379
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532fe3f1d61078747ae13db891e18f9d
+      internalID: 1875888150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oyunMalzemeleri@4x_3
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 14
+        width: 359
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10812345bf76d1489d17869f55964c8
+      internalID: -1272148068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oyunMalzemeleri@4x_4
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 48
+        width: 369
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5b9a75ab17a5d4aa71d99ed9b858db
+      internalID: -1848364088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oyunMalzemeleri@4x_5
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 41
+        width: 420
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23bae46897a436458e1eb103c8c8969
+      internalID: 1785993211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heart: 1875888150
+      oyunMalzemeleri@4x_0: 976369238
+      oyunMalzemeleri@4x_1: -1501588833
+      oyunMalzemeleri@4x_3: -1272148068
+      oyunMalzemeleri@4x_4: -1848364088
+      oyunMalzemeleri@4x_5: 1785993211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
