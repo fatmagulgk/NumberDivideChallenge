@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -52,20 +51,26 @@ public class AudioManager : MonoBehaviour
     }
     public void PlayMenuMusic()
     {
-        audioSource.clip = StartMusicClip;
-       audioSource.Play();
-        
+        AudioClip clip = StartMusicClip;
+        GameObject sound = Instantiate(SoundPrefab);
+        SoundDataHandler soundDataHandler = sound.GetComponent<SoundDataHandler>();
+        soundDataHandler.PlayClip(clip);
+
     }
     public void PlayKillMusic()
     {
-        audioSource.clip = KillClip;
-        audioSource.Play();
+        AudioClip clip = KillClip;
+        GameObject sound = Instantiate(SoundPrefab);
+        SoundDataHandler soundDataHandler = sound.GetComponent<SoundDataHandler>();
+        soundDataHandler.PlayClip(clip);
     }
     public void PlayGameOverMusic()
     {
-        audioSource.clip = GameOverClip;
-        audioSource.Play();
-        
+        AudioClip clip = GameOverClip;
+        GameObject sound = Instantiate(SoundPrefab);
+        SoundDataHandler soundDataHandler = sound.GetComponent<SoundDataHandler>();
+        soundDataHandler.PlayClip(clip);
+
     }
     public void PlayWrongAnswerClip()
     {

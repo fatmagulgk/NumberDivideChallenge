@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
-using UnityEditor.Presets;
 using Unity.VisualScripting;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -155,14 +154,7 @@ public class UIManager : MonoBehaviour
     }
     void ButtonPressed()
     {
-        if (GameManager.instance.resultControl)
-        {
-            AudioManager.Instance.PlayButtonClip();
-        }
-        else 
-        {
-            AudioManager.Instance.PlayWrongAnswerClip();
-        }
+       
         
         if (press)
         {
@@ -170,7 +162,14 @@ public class UIManager : MonoBehaviour
             
             GameManager.instance.ResultCheck();
         }
-        
+        if (GameManager.instance.resultControl)
+        {
+            AudioManager.Instance.PlayButtonClip();
+        }
+        else
+        {
+            AudioManager.Instance.PlayWrongAnswerClip();
+        }
     }   
     IEnumerator DofadeRoutine()
     {
